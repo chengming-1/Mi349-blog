@@ -9,6 +9,7 @@ body{
     color: cadetblue;
     border-top: 10px solid black;
     background: cornsilk;
+    
 }
 h1{
  font-size: large;
@@ -24,22 +25,37 @@ h2{
 p{
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    line-height: 1.4em;
 }
 table{
     margin: 80px;
     color: black;
 }
+
 h3{
-    margin: 20px;
+    font-size: large;
+    margin: 0;
+    color: darkblue;
 }
+
+
 #blog{
+    font-size: large;
     border-top:4px dotted cyan;
-    border-left: cyan;
-    border-right: cyan;
+    border-left:4px dotted cyan;
+    border-right:4px dotted cyan;
+    border-bottom:4px dotted cyan ;
     border-color: blue;
 }
+label{
+    color: black;
+}
+
 .blog-post{
+    font-size: large;
     border-bottom:4px dotted cyan;
+    border-left:4px dotted cyan;
+    border-right:4px dotted cyan;
     border-color: blue;
 
 }
