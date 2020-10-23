@@ -54,8 +54,6 @@ label{
 .blog-post{
     font-size: large;
     border-bottom:4px dotted cyan;
-    border-left:4px dotted cyan;
-    border-right:4px dotted cyan;
     border-color: blue;
 
 }
