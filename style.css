@@ -23,7 +23,7 @@ html{
      font-size: large;
      margin: 0;
      color: darkblue;
-     background: purple;
+     background: lightblue;
      position: sticky;
      top:0;
     }
@@ -72,4 +72,17 @@ html{
     .blog-post{
         font-size: large;
         background:#999;
+        border-radius: 10px;
+    }
+
+    @media(max-width:400px){
+        #c1 {
+            border-radius: 10px;
+            background: #999;
+        }
+        
+        h1{
+            color:darkblue;
+        }
+
     }
